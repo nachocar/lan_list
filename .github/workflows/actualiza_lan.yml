@@ -2,9 +2,10 @@ name: Actualizar lista IPTV
 
 on:
   schedule:
-    - cron: '0 16 * * *'  # Todos los días a las 16:00 UTC
-    - cron: '0 18 * * *'  # Todos los días a las 18:00 UTC
-    - cron: '0 20 * * *'  # Todos los días a las 20:00 UTC
+    - cron: '0 12 * * *'  # Todos los días a las 12:00 UTC
+    - cron: '0 15 * * *'  # Todos los días a las 15:00 UTC
+    - cron: '0 17 * * *'  # Todos los días a las 17:00 UTC
+    - cron: '0 19 * * *'. # Todos los dias a las 19:00 UTC
   workflow_dispatch:      # Permite ejecutarlo manualmente
 
 permissions:
