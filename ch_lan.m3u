@@ -143,12 +143,12 @@ https://acexy.carcedo.com.es/ace/getstream?id=724f9b252b11064e3f16220717fd52bd3a
 https://acexy.carcedo.com.es/ace/getstream?id=27d11bbeb3026231d52de16b1fac48da7a099247
 #EXTINF:-1 tvg-logo="https://i.ibb.co/2Ndmtbp/f1.png" tvg-id="DAZN F1 HD" group-title="FORMULA 1", DAZN F1 1727 --> ELCANO
 https://acexy.carcedo.com.es/ace/getstream?id=ed6188dcbb491efeb2092c1a6199226c27f61727
+#EXTINF:-1 tvg-logo="https://i.ibb.co/2Ndmtbp/f1.png" tvg-id="DAZN F1 HD" group-title="FORMULA 1", DAZN F1 f6d1 --> ELCANO
+https://acexy.carcedo.com.es/ace/getstream?id=b08e158ea3f5c72084f5ff8e3c30ca2e4d1ff6d1
 #EXTINF:-1 tvg-logo="https://i.ibb.co/2Ndmtbp/f1.png" tvg-id="DAZN F1 HD" group-title="FORMULA 1", DAZN F1 be55 --> ELCANO
 https://acexy.carcedo.com.es/ace/getstream?id=fd53cfa7055fe458d4f5c0ff59a06cd43723be55
 #EXTINF:-1 tvg-logo="https://i.ibb.co/2Ndmtbp/f1.png" tvg-id="DAZN F1 HD" group-title="FORMULA 1", DAZN F1 9a69 --> ELCANO
 https://acexy.carcedo.com.es/ace/getstream?id=bcf9dc38f92e90a71b87bd54b3bac91b76d09a69
-#EXTINF:-1 tvg-logo="https://i.ibb.co/2Ndmtbp/f1.png" tvg-id="DAZN F1 HD" group-title="FORMULA 1", DAZN F1 f6d1 --> ELCANO
-https://acexy.carcedo.com.es/ace/getstream?id=b08e158ea3f5c72084f5ff8e3c30ca2e4d1ff6d1
 #EXTINF:-1 tvg-logo="https://i.ibb.co/2Ndmtbp/f1.png" tvg-id="DAZN F1 HD" group-title="FORMULA 1", DAZN F1 HD be30 --> NEW LOOP
 https://acexy.carcedo.com.es/ace/getstream?id=6d325cda6ed591647ef5e91edd043147bce8be30
 #EXTINF:-1 tvg-logo="https://i.ibb.co/2Ndmtbp/f1.png" tvg-id="DAZN F1 HD" group-title="FORMULA 1", DAZN F1 0076 --> SPORT TV
@@ -317,12 +317,12 @@ https://acexy.carcedo.com.es/ace/getstream?id=b3bdd6ef7f795c4f321a3ce5cf4907338f
 https://acexy.carcedo.com.es/ace/getstream?id=5ad75216a63a31fef23ddc3532edc66c2fc0936c
 #EXTINF:-1 tvg-logo="https://i.ibb.co/yfV1Q8n/liga.png" tvg-id="M+ LaLiga HD" group-title="LA LIGA", M+ LALIGA 0357 --> ELCANO
 https://acexy.carcedo.com.es/ace/getstream?id=0febfb5cac3384f487d55c559bbfc877db2d0357
+#EXTINF:-1 tvg-logo="https://i.ibb.co/yfV1Q8n/liga.png" tvg-id="M+ LaLiga HD" group-title="LA LIGA", M+ LALIGA 9a4a --> ELCANO
+https://acexy.carcedo.com.es/ace/getstream?id=a64e02a6d914f098cbe1b724ff4f7aef83419a4a
 #EXTINF:-1 tvg-logo="https://i.ibb.co/yfV1Q8n/liga.png" tvg-id="M+ LaLiga HD" group-title="LA LIGA", M+ LALIGA d259 --> ELCANO
 https://acexy.carcedo.com.es/ace/getstream?id=3ce95bc9d6fc63676d828bb2cfc7a1f1854fd259
 #EXTINF:-1 tvg-logo="https://i.ibb.co/yfV1Q8n/liga.png" tvg-id="M+ LaLiga HD" group-title="LA LIGA", M+ LALIGA 29e8 --> ELCANO
 https://acexy.carcedo.com.es/ace/getstream?id=d3b11d6c18ad43df5cd42c1dafb4dd12d8f829e8
-#EXTINF:-1 tvg-logo="https://i.ibb.co/yfV1Q8n/liga.png" tvg-id="M+ LaLiga HD" group-title="LA LIGA", M+ LALIGA 9a4a --> ELCANO
-https://acexy.carcedo.com.es/ace/getstream?id=a64e02a6d914f098cbe1b724ff4f7aef83419a4a
 #EXTINF:-1 tvg-logo="https://i.ibb.co/yfV1Q8n/liga.png" tvg-id="M+ LaLiga HD" group-title="LA LIGA", M+ LALIGA 9e38 --> SPORT TV
 https://acexy.carcedo.com.es/ace/getstream?id=31c19ffb3472c289c5bbbbc174449c8ed0d19e38
 #EXTINF:-1 tvg-logo="https://i.ibb.co/Tc97zSb/liga2.png" tvg-id="M+ LaLiga 2 HD" group-title="LA LIGA", M+ LALIGA 2 FHD 1176 --> NEW ERA
@@ -479,8 +479,6 @@ https://acexy.carcedo.com.es/ace/getstream?id=edd06f11e1cef292a1d795e15207ef2f58
 https://acexy.carcedo.com.es/ace/getstream?id=6e212a916c83638268047dd2757c95b14f7d25a3
 #EXTINF:-1 tvg-logo="https://i.ibb.co/q95fBKV/deportes2.png" tvg-id="M+ Deportes 2 HD" group-title="MOVISTAR DEPORTES", MOVISTAR DEPORTES 2 da90 --> ELCANO
 https://acexy.carcedo.com.es/ace/getstream?id=6b15368775693c33c49fab02e7900c1976a5da90
-#EXTINF:-1 tvg-logo="https://i.ibb.co/q95fBKV/deportes2.png" tvg-id="M+ Deportes 2 HD" group-title="MOVISTAR DEPORTES", MOVISTAR DEPORTES 2 d539 --> ELCANO
-https://acexy.carcedo.com.es/ace/getstream?id=fd2aea1aa8fcddebfda1644118c6806230a1d539
 #EXTINF:-1 tvg-logo="https://i.ibb.co/q95fBKV/deportes2.png" tvg-id="M+ Deportes 2 HD" group-title="MOVISTAR DEPORTES", MOVISTAR DEPORTES 2 2191 --> ELCANO
 https://acexy.carcedo.com.es/ace/getstream?id=8cd8fd69c6755ec452e9e74b33a0d1a653452191
 #EXTINF:-1 tvg-logo="https://i.ibb.co/q95fBKV/deportes2.png" tvg-id="M+ Deportes 2 HD" group-title="MOVISTAR DEPORTES", MOVISTAR DEPORTES 2 HD 52b5 --> SPORT TV
@@ -673,8 +671,6 @@ https://acexy.carcedo.com.es/ace/getstream?id=108b33a44b6ab295f6301d0a2c433a1ef3
 https://acexy.carcedo.com.es/ace/getstream?id=b3f2b59e44fe70f45dca643107f88b6fcff80672
 #EXTINF:-1 tvg-logo="" tvg-id="" group-title="OTROS", DAZN Baloncesto 2 SDp * 84ac --> ELCANO
 https://acexy.carcedo.com.es/ace/getstream?id=fc912a111ea5a88e02b858b5014d2358b11c84ac
-#EXTINF:-1 tvg-logo="" tvg-id="" group-title="OTROS", DAZN Baloncesto 2 FHDp ** 8344 --> ELCANO
-https://acexy.carcedo.com.es/ace/getstream?id=853129258a5cb51f27829eddb934e58b45978344
 #EXTINF:-1 tvg-logo="" tvg-id="" group-title="OTROS", DAZN Baloncesto 3 SDp * afea --> ELCANO
 https://acexy.carcedo.com.es/ace/getstream?id=95125f755562c0ffcb44abd94e338bd65472afea
 #EXTINF:-1 tvg-logo="" tvg-id="" group-title="OTROS", DAZN Baloncesto 3 FHDp ** fb91 --> ELCANO
@@ -689,10 +685,10 @@ https://acexy.carcedo.com.es/ace/getstream?id=11cbb5346d28af0b972e646832f4be23dd
 https://acexy.carcedo.com.es/ace/getstream?id=18b03739d660f0066364343e226e437bf2555d56
 #EXTINF:-1 tvg-logo="" tvg-id="" group-title="OTROS", Dazn MotoGP SDp * 9137 --> ELCANO
 https://acexy.carcedo.com.es/ace/getstream?id=ac33342ccf7d40d46174229085461d95000b9137
-#EXTINF:-1 tvg-logo="" tvg-id="" group-title="OTROS", Dazn MotoGP FHDp ** 2028 --> ELCANO
-https://acexy.carcedo.com.es/ace/getstream?id=342ca6975a4884d81f9fec5c4085a47060bd2028
 #EXTINF:-1 tvg-logo="" tvg-id="" group-title="OTROS", Dazn MotoGP FHDp ** 5cea --> ELCANO
 https://acexy.carcedo.com.es/ace/getstream?id=c53bdb3be55d12c5188d25085f1bb16911c15cea
+#EXTINF:-1 tvg-logo="" tvg-id="" group-title="OTROS", Dazn MotoGP FHDp ** 2028 --> ELCANO
+https://acexy.carcedo.com.es/ace/getstream?id=342ca6975a4884d81f9fec5c4085a47060bd2028
 #EXTINF:-1 tvg-logo="" tvg-id="" group-title="OTROS", Direct Sport 2 FHDp ** d061 --> ELCANO
 https://acexy.carcedo.com.es/ace/getstream?id=0d780c1fb5fdf2121d9544f1a6892cb1053dd061
 #EXTINF:-1 tvg-logo="" tvg-id="" group-title="OTROS", Disney Junior FHDp * 86d1 --> ELCANO
@@ -763,10 +759,10 @@ https://acexy.carcedo.com.es/ace/getstream?id=ffa09e597804001f634dd1829f03182341
 https://acexy.carcedo.com.es/ace/getstream?id=93780e4164ed775a9a7cd67c44716de58463fa0a
 #EXTINF:-1 tvg-logo="" tvg-id="" group-title="OTROS", RFEF TV FHDp * 355f --> ELCANO
 https://acexy.carcedo.com.es/ace/getstream?id=177796041773be99b489dd3ce86144f243e7355f
-#EXTINF:-1 tvg-logo="" tvg-id="" group-title="OTROS", RFEF TV FHDp ** c351 --> ELCANO
-https://acexy.carcedo.com.es/ace/getstream?id=854ff9c607101791346111cd2366a392c3b8c351
 #EXTINF:-1 tvg-logo="" tvg-id="" group-title="OTROS", RFEF TV FHDp ** cc7f --> ELCANO
 https://acexy.carcedo.com.es/ace/getstream?id=3fbc1b7dc316f19b77e7f7cfc775a0af67adcc7f
+#EXTINF:-1 tvg-logo="" tvg-id="" group-title="OTROS", RFEF TV FHDp ** c351 --> ELCANO
+https://acexy.carcedo.com.es/ace/getstream?id=854ff9c607101791346111cd2366a392c3b8c351
 #EXTINF:-1 tvg-logo="" tvg-id="" group-title="OTROS", RTL+ SPORT EVENT 1 (DE) 23d3 --> SPORT TV
 https://acexy.carcedo.com.es/ace/getstream?id=a7319ebd54cb1db9a9db1574929ca8d305a323d3
 #EXTINF:-1 tvg-logo="" tvg-id="" group-title="OTROS", RTL+ SPORT EVENT 2 (DE) c466 --> SPORT TV
