@@ -249,7 +249,7 @@ jobs:
             's#http://127.0.0.1:6878#https://acexy.carcedo.com.es#g' \
             lista_original.m3u > ch_lan.m3u
 
-          echo "✅ Primera versión creada: lista_modificada.m3u (acexy.carcedo.com.es)"
+          echo "✅ Primera versión creada: ch_lan.m3u (acexy.carcedo.com.es)"
 
       - name: Verificar si hay cambios
         id: verify_diff
@@ -258,7 +258,7 @@ jobs:
           set -euo pipefail
 
           git add \
-            lista_modificada.m3u \
+            ch_lan.m3u \
             lista_origen.m3u
 
           if git diff --staged --quiet; then
