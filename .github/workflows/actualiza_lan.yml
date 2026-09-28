@@ -227,7 +227,7 @@ jobs:
 
           git add -- \
             lista_origen.m3u \
-            lista_modificada.m3u \
+            ch_lan.m3u \
             
           if git diff --staged --quiet; then
             echo "changed=false" >> "$GITHUB_OUTPUT"
