@@ -9,7 +9,7 @@ on:
 permissions:
   contents: write
 
-oncurrency:
+concurrency:
   group: actualizar-listas-m3u-${{ github.ref }}
   cancel-in-progress: false
 
