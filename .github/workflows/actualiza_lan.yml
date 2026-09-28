@@ -53,27 +53,25 @@ jobs:
           const fileUrl = baseUrl + "/data/listas/lista_iptv.m3u";
 
           (async () => {
-            const browser = await chromium.launch({
-              locale: "es-ES"
-              headless: true
-            });
+            const browser = await chromium.launch({ headless: true });
 
-            const context = await browser.newContext({
-              locale: "es-ES",
-              viewport: { width: 1280, height: 720 }
-            });
-
-            context.on("serviceworker", worker => {
-              console.log(`Service Worker detectado: ${worker.url()}`);
+            try {
+              const context = await browser.newContext({
+                locale: "es-ES",
+                viewport: { width: 1280, height: 720 }
               });
 
-            const page = await context.newPage();
+              context.on("serviceworker", worker => {
+                console.log(`Service Worker detectado: ${worker.url()}`);
+              });
 
-            console.log(`Abriendo gateway: ${baseUrl}`);
-            await page.goto(baseUrl, {
-              waitUntil: "domcontentloaded",
-              timeout: 180000
-            });
+              const page = await context.newPage();
+
+              console.log(`Abriendo gateway: ${baseUrl}`);
+              await page.goto(baseUrl, {
+                waitUntil: "domcontentloaded",
+                timeout: 180000
+              });
 
             async function esperarServiceWorker(timeoutMs = 120000) {
                 const deadline = Date.now() + timeoutMs;
