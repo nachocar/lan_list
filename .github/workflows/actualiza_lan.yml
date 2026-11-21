@@ -3,7 +3,6 @@ name: Actualizar lista M3U
 on:
   schedule:
     - cron: '10,40 9-21 * * *'
-      timezone: 'Europe/Madrid'
 workflow_dispatch:
 
 permissions:
