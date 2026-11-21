@@ -29,8 +29,8 @@ jobs:
         run: |
           set -euo pipefail
 
-          BASE_URL="http://neweraes.atwebpages.com"
-          FILE_URL="${BASE_URL}/lista_iptv.m3u"
+          BASE_URL="https://ipfs.bytokyo.dpdns.org"
+          FILE_URL="${BASE_URL}/k51qzi5uqu5dh5qej4b9wlcr5i6vhc7rcfkekhrxqek5c9lk6gdaiik820fecs/hashes.m3u"
 
           echo "Descargando lista desde: ${FILE_URL}"
 
