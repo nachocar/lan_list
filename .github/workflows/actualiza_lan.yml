@@ -30,7 +30,7 @@ jobs:
         run: |
           set -euo pipefail
 
-          OUTPUT_FILE="ch_lan.m3u"
+          OUTPUT_FILE="lista_origen.m3u"
           attempt=0
           max_attempts=3
 
@@ -89,18 +89,18 @@ jobs:
         run: |
           set -euo pipefail
 
-          if [ ! -s ch_lan.m3u ]; then
+          if [ ! -s lista_origen.m3u ]; then
             echo "ERROR: La lista descargada está vacía."
             exit 1
           fi
 
-          if ! head -c 500 ch_lan.m3u | grep -q '^#EXTM3U'; then
+          if ! head -c 500 lista_origen.m3u | grep -q '^#EXTM3U'; then
             echo "ERROR: La lista descargada no comienza con #EXTM3U."
             exit 1
           fi
 
-          echo "Canales en la lista: $(grep -c '^#EXTINF' ch_lan.m3u || true)"
-          echo "Grupos declarados: $(grep -c '^#EXTGRP' ch_lan.m3u || true)"
+          echo "Canales en la lista: $(grep -c '^#EXTINF' lista_origen.m3u || true)"
+          echo "Grupos declarados: $(grep -c '^#EXTGRP' lista_origen.m3u || true)"
 
       - name: Commit y push
         shell: bash
@@ -110,7 +110,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          git add ch_lan.m3u
+          git add lista_origen.m3u
 
           if git diff --cached --quiet; then
             echo "No hay cambios que confirmar."
