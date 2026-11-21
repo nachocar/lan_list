@@ -30,7 +30,7 @@ jobs:
         run: |
           set -euo pipefail
 
-          OUTPUT_FILE="lista_origen.m3u"
+          OUTPUT_FILE="lista_original.m3u"
           attempt=0
           max_attempts=3
 
@@ -94,13 +94,13 @@ jobs:
             exit 1
           fi
 
-          if ! head -c 500 lista_origen.m3u | grep -q '^#EXTM3U'; then
+          if ! head -c 500 lista_original.m3u | grep -q '^#EXTM3U'; then
             echo "ERROR: La lista descargada no comienza con #EXTM3U."
             exit 1
           fi
 
-          echo "Canales en la lista: $(grep -c '^#EXTINF' lista_origen.m3u || true)"
-          echo "Grupos declarados: $(grep -c '^#EXTGRP' lista_origen.m3u || true)"
+          echo "Canales en la lista: $(grep -c '^#EXTINF' lista_original.m3u || true)"
+          echo "Grupos declarados: $(grep -c '^#EXTGRP' lista_original.m3u || true)"
 
       - name: Commit y push
         shell: bash
