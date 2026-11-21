@@ -2,8 +2,8 @@ name: Actualizar lista M3U
 
 on:
   schedule:
-    - cron: '10,40 9-21 * * *'
-workflow_dispatch:
+    - cron: '7,37 9-21 * * *'
+  workflow_dispatch:
 
 permissions:
   contents: write
