@@ -102,6 +102,19 @@ jobs:
           echo "Canales en la lista: $(grep -c '^#EXTINF' lista_original.m3u || true)"
           echo "Grupos declarados: $(grep -c '^#EXTGRP' lista_original.m3u || true)"
 
+      - name: Crear variantes de la lista
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          cp lista_original.m3u lista_origen.m3u
+
+          sed \
+            's#http://127.0.0.1:6878#https://acexy.carcedo.com.es#g' \
+            lista_original.m3u > ch_lan.m3u
+
+          echo "Creada la variante de la lista."
+            
       - name: Commit y push
         shell: bash
         run: |
@@ -110,8 +123,8 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          git add lista_original.m3u
-
+          git add lista_origen.m3u
+          git add ch_lan.m3u
           if git diff --cached --quiet; then
             echo "No hay cambios que confirmar."
             exit 0
